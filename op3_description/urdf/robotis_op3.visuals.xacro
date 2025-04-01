@@ -15,6 +15,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_body_link">
+    <origin xyz="-0.0168 0.0000 0.0683" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.1745 0.1288 0.1453"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- right hip yaw link -->
   <xacro:macro name="insert_mesh_r_hip_yaw_link">
@@ -25,6 +31,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_r_hip_yaw_link">
+    <origin xyz="-0.0015 0.0000 -0.0155" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0450 0.0250 0.0310"/>
+    </geometry>
   </xacro:macro>
 
   <!-- right hip roll link -->
@@ -37,6 +49,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_r_hip_roll_link">
+    <origin xyz="0.0039 -0.0022 -0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0798 0.0424 0.0465"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- right hip pitch link -->
   <xacro:macro name="insert_mesh_r_hip_pitch_link">
@@ -47,6 +65,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_r_hip_pitch_link">
+    <origin xyz="0.0004 0.0188 -0.0595" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0309 0.0464 0.1239"/>
+    </geometry>
   </xacro:macro>
 
   <!-- right knee link -->
@@ -59,6 +83,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_r_knee_link">
+    <origin xyz="0.0000 0.0200 -0.0550" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0300 0.0440 0.1150"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- right ankle pitch link -->
   <xacro:macro name="insert_mesh_r_ank_pitch_link">
@@ -69,6 +99,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_r_ank_pitch_link">
+    <origin xyz="-0.0202 0.0168 0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0798 0.0424 0.0465"/>
+    </geometry>
   </xacro:macro>
 
   <!-- right ankle roll link -->
@@ -81,6 +117,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_r_ank_roll_link">
+    <origin xyz="0.0240 -0.0125 -0.0140" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.1270 0.0800 0.0330"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- left hip yaw link -->
   <xacro:macro name="insert_mesh_l_hip_yaw_link">
@@ -91,6 +133,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_l_hip_yaw_link">
+    <origin xyz="-0.0015 0.0000 -0.0155" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0450 0.0250 0.0310"/>
+    </geometry>
   </xacro:macro>
 
   <!-- left hip roll link -->
@@ -103,6 +151,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_l_hip_roll_link">
+    <origin xyz="0.0039 0.0022 -0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0798 0.0424 0.0465"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- left hip pitch link -->
   <xacro:macro name="insert_mesh_l_hip_pitch_link">
@@ -113,6 +167,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_l_hip_pitch_link">
+    <origin xyz="0.0004 -0.0188 -0.0595" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0309 0.0464 0.1239"/>
+    </geometry>
   </xacro:macro>
 
   <!-- left knee link -->
@@ -125,6 +185,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_l_knee_link">
+    <origin xyz="-0.0000 -0.0200 -0.0550" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0300 0.0440 0.1150"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- left ankle pitch link -->
   <xacro:macro name="insert_mesh_l_ank_pitch_link">
@@ -135,6 +201,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_l_ank_pitch_link">
+    <origin xyz="-0.0206 -0.0168 0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0790 0.0424 0.0465"/>
+    </geometry>
   </xacro:macro>
 
   <!-- left ankle roll link -->
@@ -147,6 +219,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_l_ank_roll_link">
+    <origin xyz="0.0240 0.0125 -0.0140" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.1270 0.0800 0.0330"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- right shoulder pitch joint -->
   <xacro:macro name="insert_mesh_r_sho_pitch_link">
@@ -157,6 +235,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_r_sho_pitch_link">
+    <origin xyz="-0.0000 -0.0155 -0.0038" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0420 0.0310 0.0325"/>
+    </geometry>
   </xacro:macro>
 
   <!-- right shoulder pitch joint -->
@@ -169,6 +253,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_r_sho_roll_link">
+    <origin xyz="-0.0168 -0.0452 0.0007" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0424 0.1129 0.0301"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- right elbow joint -->
   <xacro:macro name="insert_mesh_r_el_link">
@@ -179,6 +269,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_r_el_link">
+    <origin xyz="-0.0190 -0.0720 0.0000" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0420 0.1490 0.0300"/>
+    </geometry>
   </xacro:macro>
 
   <!-- left shoulder pitch joint -->
@@ -191,6 +287,12 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_l_sho_pitch_link">
+    <origin xyz="0.0000 0.0155 -0.0038" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0420 0.0310 0.0325"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- left shoulder pitch joint -->
   <xacro:macro name="insert_mesh_l_sho_roll_link">
@@ -201,6 +303,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_l_sho_roll_link">
+    <origin xyz="-0.0168 0.0452 0.0007" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0424 0.1129 0.0301"/>
+    </geometry>
   </xacro:macro>
 
   <!-- left elbow joint -->
@@ -213,12 +321,27 @@
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
   </xacro:macro>
+  <xacro:macro name="insert_box_l_el_link">
+    <origin xyz="-0.0190 0.0720 0.0000" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0420 0.1490 0.0300"/>
+    </geometry>
+  </xacro:macro>
 
   <!-- head yaw joint -->
   <xacro:macro name="insert_mesh_head_pan_link">
     <origin xyz="0 0 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/h1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="Grey">
+      <color rgba="0.60 0.60 0.60 1.0"/>
+    </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_head_pan_link">
+    <origin xyz="0.0038 -0.0000 0.0155" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0325 0.0420 0.0310"/>
     </geometry>
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
@@ -234,6 +357,12 @@
     <material name="Grey">
       <color rgba="0.60 0.60 0.60 1.0"/>
     </material>
+  </xacro:macro>
+  <xacro:macro name="insert_box_head_tilt_link">
+    <origin xyz="0.0060 -0.0190 0.0278" rpy="0.0000 -0.0000 -0.0000"/>
+    <geometry>
+      <box size="0.0445 0.0940 0.0780"/>
+    </geometry>
   </xacro:macro>
 
 </robot>

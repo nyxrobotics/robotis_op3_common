@@ -25,7 +25,7 @@
         <xacro:insert_mesh_l_sho_pitch_link/>
       </visual>
       <collision>
-        <xacro:insert_mesh_l_sho_pitch_link/>
+        <xacro:insert_box_l_sho_pitch_link/>
       </collision>
       <inertial>
         <xacro:insert_inertia_l_sho_pitch_link/>
@@ -49,7 +49,7 @@
         <xacro:insert_mesh_l_sho_roll_link/>
       </visual>
       <collision>
-        <xacro:insert_mesh_l_sho_roll_link/>
+        <xacro:insert_box_l_sho_roll_link/>
       </collision>
       <inertial>
         <xacro:insert_inertia_l_sho_roll_link/>
@@ -73,7 +73,7 @@
         <xacro:insert_mesh_l_el_link/>
       </visual>
       <collision>
-        <xacro:insert_mesh_l_el_link/>
+        <xacro:insert_box_l_el_link/>
       </collision>
       <inertial>
         <xacro:insert_inertia_l_el_link/>
