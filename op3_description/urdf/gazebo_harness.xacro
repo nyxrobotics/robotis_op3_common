@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robotis_op3">
   <xacro:macro name="add_sim_harness" params="harnessed_link">
     <gazebo>
