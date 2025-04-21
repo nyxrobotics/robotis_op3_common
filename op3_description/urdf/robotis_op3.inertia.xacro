@@ -120,7 +120,7 @@
 
   <!-- right shoulder pitch joint -->
   <xacro:macro name="insert_inertia_r_sho_pitch_link">
-    <origin xyz="0.0 -0.00823 -0.00233"/>
+    <origin xyz="0.0 0.0 0.0"/>
     <mass value="0.01176"/>
     <inertia ixx="0.00001" ixy="0.0" ixz="0.0"
       iyy="0.00001" iyz="0.0"
@@ -129,7 +129,7 @@
 
   <!-- right shoulder roll joint -->
   <xacro:macro name="insert_inertia_r_sho_roll_link">
-    <origin xyz="-0.01844 -0.04514 0.00028"/>
+    <origin xyz="0.0 -0.04514 0.00028"/>
     <mass value="0.17758"/>
     <inertia ixx="0.00022804" ixy="0.0" ixz="0.0"
       iyy="0.00003042" iyz="0.0"
@@ -138,7 +138,7 @@
 
   <!-- right elbow joint -->
   <xacro:macro name="insert_inertia_r_el_link">
-    <origin xyz="-0.01900 -0.07033 0.00380"/>
+    <origin xyz="0.0 -0.07033 0.00380"/>
     <mass value="0.04127"/>
     <inertia ixx="0.00006196" ixy="0.0" ixz="0.0"
       iyy="0.00001231" iyz="0.00000372"
