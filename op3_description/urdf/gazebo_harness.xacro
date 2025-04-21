@@ -24,9 +24,12 @@
           <physics>
             <ode>
               <implicit_spring_damper>1</implicit_spring_damper>
+              <cfm_damping>0</cfm_damping>
+              <cfm>1e-7</cfm>
+              <erp>0.8</erp>
               <limit>
-                <cfm>0.0</cfm>
-                <erp>0.0</erp>
+                <cfm>1e-7</cfm>
+                <erp>0.8</erp>
               </limit>
             </ode>
           </physics>

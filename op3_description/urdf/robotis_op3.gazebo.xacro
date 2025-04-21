@@ -15,7 +15,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -28,7 +28,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -40,7 +40,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -52,7 +52,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -64,7 +64,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -76,7 +76,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -88,7 +88,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <material>Gazebo/White</material>
   </gazebo>
 
@@ -100,7 +100,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -112,7 +112,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -124,7 +124,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -136,7 +136,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -148,7 +148,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -160,7 +160,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -172,7 +172,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -184,7 +184,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -196,7 +196,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -208,7 +208,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -220,7 +220,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -232,7 +232,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -244,7 +244,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
@@ -256,7 +256,7 @@
     <maxVel>10.0</maxVel>
     <minDepth>0.001</minDepth>
     <maxContacts>6</maxContacts>
-    <dampingFactor>0.001</dampingFactor>
+    <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
     <material>Gazebo/White</material>
   </gazebo>
