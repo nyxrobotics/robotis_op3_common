@@ -9,11 +9,11 @@
 
   <!-- body link -->
   <gazebo reference="body_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -22,11 +22,11 @@
 
   <!-- left leg links -->
   <gazebo reference="l_hip_yaw_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -34,11 +34,11 @@
   </gazebo>
 
   <gazebo reference="l_hip_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -46,11 +46,11 @@
   </gazebo>
 
   <gazebo reference="l_hip_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -58,11 +58,11 @@
   </gazebo>
 
   <gazebo reference="l_knee_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -70,11 +70,11 @@
   </gazebo>
 
   <gazebo reference="l_ank_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -82,11 +82,11 @@
   </gazebo>
 
   <gazebo reference="l_ank_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>1.0</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <material>Gazebo/White</material>
@@ -94,11 +94,11 @@
 
   <!-- right leg links -->
   <gazebo reference="r_hip_yaw_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -106,11 +106,11 @@
   </gazebo>
 
   <gazebo reference="r_hip_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -118,11 +118,11 @@
   </gazebo>
 
   <gazebo reference="r_hip_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -130,11 +130,11 @@
   </gazebo>
 
   <gazebo reference="r_knee_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -142,11 +142,11 @@
   </gazebo>
 
   <gazebo reference="r_ank_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -154,11 +154,11 @@
   </gazebo>
 
   <gazebo reference="r_ank_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>1.0</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -166,11 +166,11 @@
   </gazebo>
 
   <gazebo reference="r_sho_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -178,11 +178,11 @@
   </gazebo>
 
   <gazebo reference="r_sho_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -190,11 +190,11 @@
   </gazebo>
 
   <gazebo reference="r_el_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -202,11 +202,11 @@
   </gazebo>
 
   <gazebo reference="l_sho_pitch_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -214,11 +214,11 @@
   </gazebo>
 
   <gazebo reference="l_sho_roll_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -226,11 +226,11 @@
   </gazebo>
 
   <gazebo reference="l_el_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -238,11 +238,11 @@
   </gazebo>
 
   <gazebo reference="head_pan_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>
@@ -250,11 +250,11 @@
   </gazebo>
 
   <gazebo reference="head_tilt_link">
-    <kp>100000.0</kp>
-    <kd>10.0</kd>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
     <mu1>0.1</mu1>
     <maxVel>10.0</maxVel>
-    <minDepth>0.001</minDepth>
+    <minDepth>0.0001</minDepth>
     <maxContacts>6</maxContacts>
     <dampingFactor>0.0</dampingFactor>
     <selfCollide>false</selfCollide>

@@ -1,8 +1,8 @@
-<?xml version="1.0" ?>
-<sdf version='1.4'>
-  <world name='default'>
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
     <gravity>0.000000 0.000000 -9.810000</gravity>
-    <light name='sun' type='directional'>
+    <light name="sun" type="directional">
       <cast_shadows>1</cast_shadows>
       <pose>0 0 10 0 -0 0</pose>
       <diffuse>0.8 0.8 0.8 1</diffuse>
@@ -15,7 +15,19 @@
       </attenuation>
       <direction>-0.5 0.1 -0.9</direction>
     </light>
-<!--
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+      <ode>
+        <solver>
+          <thread_position_correction>1</thread_position_correction>
+          <island_threads>8</island_threads>
+        </solver>
+      </ode>
+    </physics>
+    <!--
     <physics type="ode">
       <real_time_update_rate>1000.0</real_time_update_rate>
       <max_step_size>0.001</max_step_size>
@@ -38,10 +50,10 @@
       </ode>
     </physics>
 -->
-    <model name='ground_plane'>
+    <model name="ground_plane">
       <static>1</static>
-      <link name='link'>
-        <collision name='collision'>
+      <link name="link">
+        <collision name="collision">
           <geometry>
             <plane>
               <normal>0 0 1</normal>
@@ -63,7 +75,7 @@
           </surface>
           <max_contacts>10</max_contacts>
         </collision>
-        <visual name='visual'>
+        <visual name="visual">
           <cast_shadows>0</cast_shadows>
           <geometry>
             <plane>
@@ -99,13 +111,13 @@
       <elevation>0</elevation>
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
-    <state world_name='default'>
+    <state world_name="default">
       <sim_time>18 131000000</sim_time>
       <real_time>18 249402717</real_time>
       <wall_time>1442867251 89781872</wall_time>
-      <model name='ground_plane'>
+      <model name="ground_plane">
         <pose>0 0 0 0 -0 0</pose>
-        <link name='link'>
+        <link name="link">
           <pose>0 0 0 0 -0 0</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
@@ -113,12 +125,11 @@
         </link>
       </model>
     </state>
-    <gui fullscreen='0'>
-      <camera name='user_camera'>
+    <gui fullscreen="0">
+      <camera name="user_camera">
         <pose>5 -5 2 0 0.275643 2.35619</pose>
         <view_controller>orbit</view_controller>
       </camera>
     </gui>
   </world>
 </sdf>
-
