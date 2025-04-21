@@ -565,7 +565,7 @@
 
   <!-- head camera -->
 
-  <gazebo reference="cam_gazebo_link">
+  <gazebo reference="cam_link">
     <sensor name="camera" type="camera">
       <pose>0.050000 -0.010000 0.000000 0 0.000000 0</pose>
       <camera name="__default__">
@@ -588,7 +588,7 @@
         <cameraName>robotis_op3/camera</cameraName>
         <imageTopicName>image_raw</imageTopicName>
         <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-        <frameName>cam_link</frameName>
+        <frameName>cam_optical_link</frameName>
         <hackBaseline>0.07</hackBaseline>
         <distortionK1>0.0</distortionK1>
         <distortionK2>0.0</distortionK2>

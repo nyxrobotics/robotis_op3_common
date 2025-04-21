@@ -330,7 +330,7 @@
 
   <!-- head yaw joint -->
   <xacro:macro name="insert_mesh_head_pan_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 -0.0285" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/h1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -339,7 +339,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_head_pan_link">
-    <origin xyz="0.0038 -0.0000 0.0155" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="0.0038 -0.0000 -0.013" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0325 0.0420 0.0310"/>
     </geometry>
@@ -350,7 +350,7 @@
 
   <!-- head yaw joint -->
   <xacro:macro name="insert_mesh_head_tilt_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0.019 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/h2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -359,7 +359,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_head_tilt_link">
-    <origin xyz="0.0060 -0.0190 0.0278" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="0.0060 0 0.0278" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0445 0.0940 0.0780"/>
     </geometry>
