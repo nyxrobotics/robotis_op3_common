@@ -141,7 +141,7 @@
     <origin xyz="0.0 -0.07033 0.00380"/>
     <mass value="0.04127"/>
     <inertia ixx="0.00006196" ixy="0.0" ixz="0.0"
-      iyy="0.00001231" iyz="0.00000372"
+      iyy="0.00001231" iyz="0.0"
       izz="0.00006854"/>
   </xacro:macro>
 
@@ -158,8 +158,8 @@
   <xacro:macro name="insert_inertia_l_sho_roll_link">
     <origin xyz="0.0 0.04514 0.00028"/>
     <mass value="0.17758"/>
-    <inertia ixx="0.00022804" ixy="-0.00000001" ixz="0.00000003"
-      iyy="0.00003042" iyz="0.00000059"
+    <inertia ixx="0.00022804" ixy="0.0" ixz="0.0"
+      iyy="0.00003042" iyz="0.0"
       izz="0.00023474"/>
   </xacro:macro>
 
@@ -168,7 +168,7 @@
     <origin xyz="0.0 0.07033 0.00380"/>
     <mass value="0.04127"/>
     <inertia ixx="0.00006196" ixy="0.0" ixz="0.0"
-      iyy="0.00001231" iyz="-0.00000372"
+      iyy="0.00001231" iyz="0.0"
       izz="0.00006854"/>
   </xacro:macro>
 
@@ -185,8 +185,8 @@
   <xacro:macro name="insert_inertia_head_tilt_link">
     <origin xyz="0.00230 0.0 0.0285"/>
     <mass value="0.13631"/>
-    <inertia ixx="0.00010612" ixy="0.00000011" ixz="-0.00000910"
-      iyy="0.00008721" iyz="0.00000084"
+    <inertia ixx="0.00010612" ixy="0.0" ixz="0.0"
+      iyy="0.00008721" iyz="0.0"
       izz="0.00004529"/>
   </xacro:macro>
 
