@@ -126,7 +126,7 @@
 
   <!-- left hip yaw link -->
   <xacro:macro name="insert_mesh_l_hip_yaw_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0 0.0285" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -135,7 +135,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_hip_yaw_link">
-    <origin xyz="-0.0015 0.0000 -0.0155" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="-0.0015 0.0000 0.013" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0450 0.0250 0.0310"/>
     </geometry>
@@ -143,7 +143,7 @@
 
   <!-- left hip roll link -->
   <xacro:macro name="insert_mesh_l_hip_roll_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="-0.024 0 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll2.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -152,7 +152,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_hip_roll_link">
-    <origin xyz="0.0039 0.0022 -0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="-0.0201 0.0022 -0.0120" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0798 0.0424 0.0465"/>
     </geometry>
@@ -160,7 +160,7 @@
 
   <!-- left hip pitch link -->
   <xacro:macro name="insert_mesh_l_hip_pitch_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0.0 0.019 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll3.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -169,7 +169,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_hip_pitch_link">
-    <origin xyz="0.0004 -0.0188 -0.0595" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="0.0004 0.0002 -0.0595" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0309 0.0464 0.1239"/>
     </geometry>
@@ -177,7 +177,7 @@
 
   <!-- left knee link -->
   <xacro:macro name="insert_mesh_l_knee_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0.019 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll4.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -186,7 +186,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_knee_link">
-    <origin xyz="-0.0000 -0.0200 -0.0550" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="0.0 -0.001 -0.0550" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0300 0.0440 0.1150"/>
     </geometry>
@@ -194,7 +194,7 @@
 
   <!-- left ankle pitch link -->
   <xacro:macro name="insert_mesh_l_ank_pitch_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="0 0.019 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll5.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -203,7 +203,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_ank_pitch_link">
-    <origin xyz="-0.0206 -0.0168 0.0120" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="-0.0206 0.0022 0.0120" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.0790 0.0424 0.0465"/>
     </geometry>
@@ -211,7 +211,7 @@
 
   <!-- left ankle roll link -->
   <xacro:macro name="insert_mesh_l_ank_roll_link">
-    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <origin xyz="-0.0241 0 0" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://op3_description/meshes/ll6.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -220,7 +220,7 @@
     </material>
   </xacro:macro>
   <xacro:macro name="insert_box_l_ank_roll_link">
-    <origin xyz="0.0240 0.0125 -0.0140" rpy="0.0000 -0.0000 -0.0000"/>
+    <origin xyz="-0.0001 0.0125 -0.0140" rpy="0.0000 -0.0000 -0.0000"/>
     <geometry>
       <box size="0.1270 0.0800 0.0330"/>
     </geometry>
